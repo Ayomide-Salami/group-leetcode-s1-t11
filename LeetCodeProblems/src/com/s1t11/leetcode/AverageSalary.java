@@ -1,5 +1,7 @@
 package com.s1t11.leetcode;
 
+import java.util.Arrays;
+
 public class AverageSalary {
 	public static void main(String[] args) {
 
@@ -10,21 +12,18 @@ public class AverageSalary {
 	 * salary. Answers within 10-5 of the actual answer will be accepted.
 	 */
 	public double average(int[] salary) {
+
 		int sum = 0;
-		int minValue = salary[0];
-		int maxValue = salary[0];
+
+		Arrays.sort(salary);
 
 		for (int i = 0; i < salary.length; i++) {
-			if (minValue > salary[i]) {
-				minValue = salary[i];
-			}
-			if (maxValue < salary[i]) {
-				maxValue = salary[i];
+			if (salary[i] == salary[0] || salary[i] == salary[salary.length - 1]) {
+				continue;
 			}
 			sum += salary[i];
 		}
-
-		return (double) (sum - minValue - maxValue) / (salary.length - 2);
+		return (double) sum / (salary.length - 2);
 	}
 
 }

@@ -1,7 +1,7 @@
 # README
 
 ## Overview
-This repository contains Java implementations of common algorithmic problems for the Leetcode Team Challenge, each with a detailed explanation of the approach used. These implementations demonstrate efficient problem-solving techniques, including iteration, two-pointer strategies, linked list manipulation, and mathematical computations.
+This repository contains Section 1, Team 11's Java implementations for the Leetcode Team Challenge, each with a detailed explanation of the approach used. These implementations demonstrate efficient problem-solving techniques, including iteration, two-pointer strategies, linked list manipulation, and mathematical computations.
 
 ## Implementations
 

@@ -1,7 +1,7 @@
 # README
 
 ## Overview
-This repository contains Java implementations of common algorithmic problems, each with a detailed explanation of the approach used. These implementations demonstrate efficient problem-solving techniques, including iteration, two-pointer strategies, linked list manipulation, and mathematical computations.
+This repository contains Java implementations of common algorithmic problems from Leetcode, each with a detailed explanation of the approach used. These implementations demonstrate efficient problem-solving techniques, including iteration, two-pointer strategies, linked list manipulation, and mathematical computations.
 
 ## Implementations
 
@@ -51,4 +51,4 @@ This repository contains Java implementations of common algorithmic problems, ea
 - **Space Complexity:** O(1) – Modifies the input lists in place.
 
 ## Summary
-These implementations provide optimized solutions to the LeetCode challenges, focusing on efficient space and time complexity. The use of iterative loops, two-pointer techniques, and linked list manipulations ensures that the solutions are both effective and scalable.
+These implementations provide optimized solutions to the Leetcode challenges, focusing on efficient space and time complexity. The use of iterative loops, two-pointer techniques, and linked list manipulations ensures that the solutions are both effective and scalable.
